@@ -1,0 +1,23 @@
+import React from "react";
+import { FaGoogle } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
+const SocialLogin = () => {
+  return (
+    <div>
+      <h3 className="font-semibold mb-3 ">LOgin With</h3>
+      <div className="*:w-full space-y-2">
+        <button className="btn">
+          <FaGoogle />
+          Login with Google
+        </button>
+        <button className="btn">
+          <FaGithub />
+          Login with Github
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default SocialLogin;
